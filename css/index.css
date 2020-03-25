@@ -1,0 +1,352 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+/*THIS CODE WAS WRITTEN ON 9/7/19, BY JASON CRUZ
+    HERE I WAS LEARNING ABOUT BOX-MODELS AS I GO.
+    I HAVE ADDED NOTES TO HELP ME REMEMBER AS I GO
+    AND NOT GET LOST IF I COME BACK TO IT LATER.
+*/
+
+/*.body {
+    width: 90%;
+    margin: auto;
+}*/
+
+/*THIS IS THE NAVBAR SECTION*/
+
+.navbar {
+  /*display: inline-block;*/
+  margin-left: 12.5%;
+}
+
+nav a.nav {
+  text-align: center;
+  margin-left: 4%;
+  margin-top: 2%;
+  top: 20px;
+  font-size: 16px;
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px;
+}
+
+/*/*THIS IS THE LOGO ON NAVBAR*/
+/*section.logo-position {
+    width: 150px;
+    margin-top: 40px;
+	display: inline-block;
+    height: 20%;
+}*/
+
+.top-logo {
+  position: absolute;
+  height: 40px;
+  width: 150px;
+  margin-left: 110px;
+  top: 12px;
+}
+
+/*THIS IS THE INNOVATION ON DEMAND SECTION*/
+.top-section {
+  position: relative;
+  height: 60%;
+  width: 100%;
+  /*height: 45%;*/
+  /*margin-top: 6%;*/
+  margin-left: 20%;
+  /*margin-top: 30px;*/
+}
+
+.top-section h1 {
+  position: absolute;
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 10%;
+  margin-bottom: 1px;
+  margin-left: 1%;
+  display: inline-block;
+  text-align: center;
+}
+
+/*THIS IS THE INNOVATION ON DEMAND "GET STARTED" BUTTON SECTION */
+.top-section a {
+  position: relative;
+  font-family: "Arial", sans-serif;
+  color: black;
+  padding: 5px 40px 5px 40px;
+  margin-top: 10px;
+  font-size: 12px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+/*THIS PICTURE IS THE CIRCLE NEXT TO THE INNOVATION ON DEMAND LINE*/
+.top-section .second-img {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  margin-left: 36.1%;
+  margin-bottom: 0;
+  margin-top: 6%;
+}
+
+/*//////////////////////////////////////////////////////////*/
+/*/////////////// DO NOT EDIT PASS THIS LINE////////////////*/
+/*//////////////////////////////////////////////////////////*/
+
+/* THIS BORDER IS RIGHT ABOVE THE FEATURES AND ABOUT SECTION*/
+.top-border .border {
+  border-bottom: 1px solid black;
+  margin-top: 4%;
+  margin-left: 16%;
+  margin-right: 21.5%;
+}
+
+.top-content div features {
+  display: inline-block;
+  /*position: relative;*/
+  margin-left: 40px;
+}
+
+/*THIS IS THE FEATURES, ABOVE SECTION*/
+section.left-section {
+  display: inline-block;
+  width: 30%;
+  height: 50%;
+  text-align: justify;
+  margin-left: 16%;
+  margin-right: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+section.right-section {
+  display: inline-block;
+  width: 30%;
+  height: 50%;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+/*THIS IS THE MIDDLE IMAGE SECTION*/
+
+.middle-image img {
+  width: 843px;
+  height: 175px;
+  margin-left: 216px;
+}
+
+/*THIS IS THE BOTTOM SERVICES, PRODUCT & VISION SECTION*/
+section.bottom-left-section {
+  display: inline-block;
+  width: 20%;
+  text-align: justify;
+  margin-left: 16%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+section.bottom-middle-section {
+  display: inline-block;
+  width: 20%;
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 12px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+section.bottom-right-section {
+  display: inline-block;
+  width: 20%;
+  text-align: justify;
+}
+
+/*BOTTOM BORDER TOP ABOVE FOOTER*/
+div .border {
+  border-bottom: 1px solid black;
+  margin-left: 16%;
+  margin-right: 21%;
+}
+
+/*CONTACT SECTION*/
+section.contact {
+  display: inline-block;
+  width: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 16%;
+}
+
+section p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 10px;
+  text-align: center;
+}
+
+/* BLANK PAGE */
+
+.empty-block {
+  height: 100%;
+}
+
+.blank-block {
+  display: flex;
+  justify-content: center;
+  margin: 15%;
+}
